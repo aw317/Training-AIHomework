@@ -1,6 +1,6 @@
 Repository contains ping and receiver REST APi
 
-### api/ing
+### api/ping
 
 contains logic to ping given url.
 
