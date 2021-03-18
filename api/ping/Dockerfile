@@ -3,7 +3,7 @@ WORKDIR /ping
 ENV FLASK_APP=app.py:create_ping_app
 ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_RUN_PORT=8080
-RUN apk add --no-cache gcc musl-dev linux-headers
+RUN apk add --no-cache gcc musl-dev linux-headers curl
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 EXPOSE 8080
