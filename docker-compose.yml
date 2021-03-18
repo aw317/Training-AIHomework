@@ -2,12 +2,9 @@
 version: "2.0"
 services:
   ping:
-    build: ping
+    build: api/ping
     ports:
       - "8080:8080"
   receiver:
-    build: receiver
+    build: api/receiver
     hostname: 'ReceiverService'
-#netowrks:
-#  api_default:
-#    name: api_default

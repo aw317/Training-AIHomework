@@ -1,13 +1,13 @@
-Repository contains ping  and receiver REST APi
+Repository contains ping and receiver REST APi
 
-### Ping
+### api/ing
 
 contains logic to ping given url.
 
 To see documentation visit
 ```localhost:8080/api/v1```
 
-### Receiver
+### api/receiver
 
 test service for ping
 
